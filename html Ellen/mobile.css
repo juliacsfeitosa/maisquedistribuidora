@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 110px;
+}
+
+.logo img{
+    height: 3rem;
+    width: 5rem;
+    margin-top: -1rem;
+    margin-left: 10rem;
+}
+
+.menu a{
+    font-size: 13px;
+    padding: 5px 5px;
+}
+
+.main__cta button{
+    display: none;
+}
+
+.diferenciais{
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+}
+
+.banner{
+    display: none;
+}
+
+.button a{
+    display: none;
+}
+
+#sobre{
+    text-align: center;
+    margin-top: 9rem;
+}
+
+.conteudo-sobre h2{
+    font-size: 18px;
+    margin-top: -1rem;
+    margin-left: 0.1rem;
+    text-align: center;
+}
+
+.conteudo-sobre p{
+    font-size: 12px;
+    margin-left: 0.1rem;
+    text-align: center;
+}
+
+.conteudo-sobre iframe{
+    display: none;
+}
+
+#proprias h2{
+    font-size: 35px;
+}
+
+.logoss img{
+    height: 100px;
+    width: 100px;
+}
+
+.oficial{
+    height: 380px;
+}
+
+#parceiros h2{
+    font-size: 35px;
+}
+
+.logos img{
+    height: 100px;
+    width: 100px;
+}
+
+.carrossel{
+    background-color: #0269af;
+    height: 300px;
+}
+
+.chamado h2{
+    margin-top: .3rem;
+    font-size: 35px;
+}
+
+.image-container img{
+    max-width: 500px;
+}
+
+.apresentacao img{
+    height: 300px;
+    width: 100%;
+    margin-left: 0.1rem;
+}
+
+.conteudo h2{
+    font-size: 35px;
+    margin-top: -3rem;
+}
+
+.conteudo p{
+    font-size: 18px;
+    margin-left: 0.1rem;
+}
+
+.processo-single p{
+    font-size: 15px;
+}
+
+.processo-single{
+    margin-left: 2rem;
+}
+
+.processo-single h2{
+    font-size: 15px;
+    margin-top: 0.1rem;
+}
+
+.processo-single img{
+    height: 80px;
+    width: 80px;
+}
+
+#drop{
+    height: 1000px;
+}
+
+.oficial h2{
+    font-size: 20px;
+}
+
+.oficial img{
+    height: 250px;
+    width: 250px;
+}
+
+#flor{
+    margin-left: 140px;
+}
+
+#drop button a{
+    padding: 10px 19px;
+    font-size: 15px;
+    top: 90px;
+    text-align: center;
+}
+
+.boxs{
+    margin-left: -11rem;
+}
+
+.boxss{
+    margin-left: -11rem;
+    margin-top: -15rem;
+}
+
+#ctt{
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
