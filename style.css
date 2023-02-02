@@ -1,0 +1,681 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(BANNER_PRINCIPAL.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*menu*/
+.center{
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0 2%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+header{
+    background-color: white;
+    padding: 10px 0;
+    border-bottom: 1px solid #0269af;
+    text-align: center;
+}
+
+.logo img{
+    width: 10rem;
+    height: 5.6rem;
+    text-align: center;
+}
+
+.menu a{
+    color: #0269af;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Sofia Sans', sans-serif;
+    display: inline-block;
+    margin-right: 30px;
+    padding: 1.5rem;
+    transition: 0.5s;
+    position: relative;
+    text-align: center;
+}
+
+.menu a:hover{
+    color: #fff;
+    background-color: #05b0d2;
+    padding: 15px;
+    border-radius: 15px;
+}
+/*menu*/
+
+/*banner*/
+.banner h2{
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+    margin-left: 53rem;
+    margin-top: 6rem;
+}
+
+.banner p{
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Sofia Sans', sans-serif;
+    text-align: left;
+    margin-left: 53rem;
+}
+
+.banneer a{
+    background-color: #05b0d2;
+    color: #fff;
+    padding: 20px 50px;
+    font-family: 'Sofia Sans', sans-serif;
+    margin-left: 53rem;
+    text-decoration: none;
+    margin-top: 2rem;
+    position: absolute;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.banneer a:hover{
+    background-color: #fff;
+    transition: .6s;
+    color: #0269af;
+}
+
+/*banner*/
+
+/*section main*/
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-left: 13rem;
+}
+
+.diferencial-single{
+    background-color: #0269af;
+    width: 14rem;
+    margin: 2rem;
+    height: 16rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.diferencial-single i{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 2rem;
+}
+
+.diferencial-single h2{
+    color: #fff;
+    margin: 10px 0;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 23px;
+}
+
+.diferencial-single p{
+    color: white;
+    margin: 20px;
+    margin-top: 0.3rem;
+    font-size: 17px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#sobre{
+    padding: 80px 0;
+    margin-top: 30rem;
+    background-color: #0269af;
+    color: #fff;
+}
+
+.conteudo-sobre h2{
+    margin: 10px 0;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 2.3rem;
+    margin-top: -20rem;
+    margin-left: -9rem;
+    text-align: left;
+}
+
+.conteudo-sobre{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    width: 500px;
+}
+
+.conteudo-sobre p{
+    font-size: 18px;
+    margin-left: -9rem;
+    text-align: left;
+}
+
+.conteudo-sobre iframe{
+    margin-left: 38rem;
+    margin-top: -18rem;
+}
+
+
+/*section main*/
+
+/*conteudo*/
+#drop{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    margin-top: 3rem;
+    background-color: #0269af;
+    text-align: center;
+    justify-content: center;
+}
+
+.conteudo{
+    text-align: center;
+    margin-top: 5rem;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.conteudo h2{
+    text-align: center;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.conteudo p{
+    display: flex;
+    margin: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.texto h1{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Sofia Sans', sans-seri
+}
+
+.texto p{
+    margin-left: 9rem;
+}
+
+button{
+    text-decoration: none;
+    background: none;
+    border: none
+}
+
+button a{
+
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    top: 9rem;
+    background-color: #fff;
+    color: #0269af;
+}
+
+button:hover{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    transition: all .4s;
+}
+
+button a:hover{
+    color: #fff;
+    transition: all .4s;
+    background-color: #05b0d2;
+}
+
+button.button a{
+    margin-left: 53rem;
+    top: 5rem;
+}
+
+
+@keyframes anima {
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+
+.logos img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 7px;
+    filter: grayscale(5);
+    margin-top: -1rem;
+}
+
+.logos img:hover{
+    filter: none;
+    transition: .5s;
+}
+
+
+
+#parceiros{
+    text-align: center;
+    color: #0269af;
+    font-family: 'Sofia Sans', sans-serif;
+    margin-top: 4rem;
+}
+
+#parceiros h2{
+    font-size: 3.5rem;
+    padding: 15px;
+}
+
+/*conteudo*/
+
+/*marcas próprias*/
+
+#proprias{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#proprias h2{
+    color: #0269af;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 3.5rem;
+}
+
+.logoss img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 7px;
+    filter: grayscale(5);
+    color: #0269af;
+}
+
+.logoss img:hover{
+    filter: none;
+    transition: .5s;
+}
+
+/*marcas próprias*/
+
+
+/*contato*/
+
+#ctt{
+    display: flex;
+    margin-left: 55rem;
+    margin-top: -44rem;
+}
+
+form{
+    width: 60%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: -1.9rem;
+}
+
+form button{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #0269af;
+    padding: 0.8rem 1.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+
+form button:hover{
+    background-color: #fff;
+    color: #0269af;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    margin-top: 2rem;
+}
+
+.input-box input{
+    margin: 0.3rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px #0000001c;
+}
+
+.input-box input:hover{
+    background-color: #0000001c;
+}
+
+.input-box input:focus-visible{
+    outline: 1px solid #0269af;
+}
+
+.input-box label{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0269af;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.input-box input::placeholder{
+    color: #bbbbbb;
+}
+
+form h2{
+    font-size: 1.5rem;
+    font-family: 'Sofia Sans', sans-serif;
+    color: #0269af;
+    text-align: center;
+}
+
+form img{
+    width: 150px;
+    height: 80px;
+    margin-top: -2rem;
+}
+
+
+/*whatsapp*/
+
+.whats{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+}
+
+/*carrossel*/
+
+.chamado{
+    font-family: 'Sofia Sans', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 5rem;
+    padding: 20px;
+}
+
+.chamado h2{
+    margin-top: 3.5rem;
+}
+
+.carrossel{
+    background-color: #0269af;
+    height: 550px;
+}
+
+.img img{
+    width: 900px;
+    height: 300px;
+}
+.height {
+    height: 10px;
+}
+      
+/* Image-container design */
+.image-container {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+}
+      
+.next {
+    right: 0;
+}
+      
+/* Next and previous icon design */
+.previous,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    margin-top: -25px;
+}
+      
+/* caption decorate */
+      
+ /* Slider image number */
+.fa {
+    font-size: 32px;
+    color: #fff;
+}
+      
+.fa:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+    color: #0269af;
+}
+      
+.footerdot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+      
+.active,
+.footerdot:hover {
+    background-color: white;
+}
+
+
+/*drop*/
+.processo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.processo-single{
+    width: 12rem;
+    margin: 1rem;
+    height: 10rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.processo-single img{
+    margin-top: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+.processo-single h2{
+    color: white;
+    margin: 10px 0;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 23px;
+}
+
+.processo-single p{
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/*drop*/
+
+/*rodapé*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-image: url(BANNER_SEM-DEGRADE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+footer .boxss{
+    align-items: center;
+    justify-content: center;
+    padding: 1px 250px;
+}
+
+footer .boxs{
+    align-items: center;
+    justify-content: center;
+    padding: 1px 250px;
+}
+
+.boxss h2{
+    font-family: 'Sofia Sans', sans-serif;
+    color: #fff;
+    margin-top: 20rem;
+    font-size: 35px;
+}
+
+.boxs h2{
+    font-family: 'Sofia Sans', sans-serif;
+    color: #fff;
+    margin-top: 3rem;
+    font-size: 35px;
+}
+
+.boxss ul li{
+    list-style: none;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+.boxs ul li{
+    list-style: none;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+.sociais{
+    display: flex;
+    flex-direction: row;
+}
+
+.sociais .social{
+    text-align: center;
+    color: #fff;
+    margin: 5px;
+}
+
+.ec img{
+    height: 70px;
+    width: 70px;
+    margin-top: 10rem;
+    margin-left: 1rem;
+}
+
+.ec h2{
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Sofia Sans', sans-serif;
+    margin-left: .5rem;
+}
+
+.sociais .social a{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.sociais .social a:hover{
+    color: #05b0d2;
+    transition: .4s;
+}
+
+
+/*rodapé*/
+
+
+.apresentacao img{
+    margin-left: 15%;
+    margin-top: 2rem;
+    height: 650px;
+}
+
+@media screen and (max-width: 768px){
+    .diferencial-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+.oficial h2{
+    color: #fff;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 30px;
+}
+
+.oficial{
+    background-color: #0269af;
+    margin-top: 5rem;
+    height: 400px;
+    text-align: center;
+}
+
+.oficial img{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.oficial a{
+    filter: grayscale(1);
+}
+
+.oficial a:hover{
+    filter: none;
+    transition: .7s;
+}
